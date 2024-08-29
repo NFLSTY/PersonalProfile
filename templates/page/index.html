@@ -1,54 +1,33 @@
 {{template "header" .}}
-<nav style="text-align: right;">
-    <a href="/">Home</a> |
-    <a href="detail">Details</a> |
-</nav>
+<header>
+    <a href="#" class="logo">NSP</a>
 
-<hr />
-
-<header style="text-align: center;">
-    <img src="/public/assets/image/profile.jpg" width="200" height="200" style="border-radius: 50%;" />
-    <h1>NSP</h1>
-    <p>(Newbie Developer)</p>
+    <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#" >Services</a>
+        <a href="#" >Skills</a>
+        <a href="#" >Education</a>
+        <a href="#" >Contact</a>
+    </nav>
 </header>
-
-<hr />
-
-<article style="text-align: center;">
-    <h2>Overview</h2>
-    <p>
-        A college student that like to learn about coding
-    </p>
-</article>
-
-<div style="max-width: 600px; margin: 3em auto">
-    <table border="1" width="100%">
-        <thead>
-            <tr>
-                <th>Skill</th>
-                <th>Role</th>
-            </tr>
-        </thead>
-        <tr>
-            <td>
-                <ul>
-                    <li>html (beginer)</li>
-                    <li>css (beginer)</li>
-                    <li>flutter (beginer)</li>
-                    <li>C++ (intermediate)</li>
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>Contributor</li>
-                    <li>AMCC Member</li>
-                    <li>BCI student</li>
-                    <li>Mobile/website dev</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-</div>
-
-<hr>
+<section class="home">
+    <div class="home-img">
+        <img src="/public/assets/image/profile.jpg">
+    </div>
+    <div class="home-content">
+        <h1>Hi, I'm <span>Naufal</span></h1>
+        <h3 class="typing-text">I'm a <span></span></h3>
+        <p>I'm a student from University of AMIKOM Yogyakarta. I have a passion in the world of programming, 
+            especially in mobile and front end website. I'm still new on both development, but I want to keep 
+            learning until I become a professional developer. 
+        </p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/naufal-satya-pradananto-46263b294/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/NFLSTY"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="#" class="btn">My CV</a>
+    </div>
+</section>
 {{template "footer" .}}
