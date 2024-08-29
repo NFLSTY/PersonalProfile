@@ -10,5 +10,4 @@ func SetupRouter(r *gin.Engine) {
 	mainController := controller.NewController()
 
 	r.GET("/", mainController.Index)
-	r.GET("/detail", mainController.Detail)
 }

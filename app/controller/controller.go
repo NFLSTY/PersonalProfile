@@ -17,6 +17,3 @@ func NewController() *Controller {
 func (r *Controller) Index(c *gin.Context) {
 	c.HTML(http.StatusOK, "index.html", gin.H{})
 }
-func (r *Controller) Detail(c *gin.Context) {
-	c.HTML(http.StatusOK, "detail.html", gin.H{})
-}
