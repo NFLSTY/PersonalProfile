@@ -433,4 +433,63 @@ section{
 
 /* Education*/
 
+/* Education */
+
+.education{
+    background: var(--second-bg-color);
+}
+
+.education .title{
+    font-size: var(--h3-font);
+    text-align: left;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.content{
+    padding: 0px 30px;
+    margin-top: 4.2rem;
+    border-left: 2px solid #2d343f;
+}
+
+.content .list{
+    position: relative;
+    padding: 20px;
+    background-color: var(--other-color);
+    margin-bottom: 25px;
+}
+
+.content .list::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: calc(100% + 22px);
+    border-radius: 50%;
+    top: 0;
+    background-color: #2d343f;
+    border: 2px solid var(--second-bg-color);
+}
+
+.list h4{
+    position: relative;
+    font-size: 18px;
+    color: var(--main-color);
+}
+
+.list h5{
+    font-size: 21px;
+    padding: 10px 0px 6px;
+    font-weight: 600;
+}
+
+.list p{
+    font-size: var(--p-font);
+    line-height: 1.2;
+}
+
 
