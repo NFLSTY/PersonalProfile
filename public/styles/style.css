@@ -70,7 +70,7 @@ span{
 }
 
 nav a{
-    font-size: 2rem;
+    font-size: 17px;
     color: var(--text-color);
     margin-left: 40px;
     font-weight: 500;
@@ -129,7 +129,7 @@ section{
     color: var(--main-color);
     border: 2px solid var(--main-color);
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
     transition: all .3s ease;
 }
@@ -311,7 +311,7 @@ section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 1rem;
+    gap: 1rem; /* Picture to side text */
 }
 
 .about-img img{
@@ -333,11 +333,16 @@ section{
 
 .about-text p{
     font-size: var(--p-font);
-    font-weight: 500;
+    font-weight: 600;
     line-height: 42px;
 }
 
+.about-text span{
+    font-weight: 400;
+}
+
 .about-btn{
+    margin-top: 15px;  /* Adjust hieght from text to button */
     display: inline-block;
     padding: 11px 26px;
     background: var(--main-color);
@@ -366,7 +371,7 @@ section{
     font-size: var(--h3-font);
     color: var(--text-color);
     text-align: center;
-    margin: 1rem 0 4rem;
+    margin: 5rem 0;
 }
 
 .grid{
@@ -431,8 +436,6 @@ section{
     border-bottom: 2px solid var(--main-color);
 }
 
-/* Education*/
-
 /* Education */
 
 .education{
@@ -442,6 +445,7 @@ section{
 .education .title{
     font-size: var(--h3-font);
     text-align: left;
+    margin: 4rem 0 2rem;
 }
 
 .row{
@@ -452,7 +456,6 @@ section{
 
 .content{
     padding: 0px 30px;
-    margin-top: 4.2rem;
     border-left: 2px solid #2d343f;
 }
 
@@ -477,19 +480,20 @@ section{
 
 .list h4{
     position: relative;
-    font-size: 18px;
+    font-size: 16px;
     color: var(--main-color);
 }
 
 .list h5{
-    font-size: 21px;
+    font-size: 18px;
     padding: 10px 0px 6px;
     font-weight: 600;
 }
 
 .list p{
-    font-size: var(--p-font);
+    font-size: 1.2rem;
     line-height: 1.2;
+    text-align: justify;
 }
 
 /* Contact */
@@ -497,13 +501,13 @@ section{
 .contact .title{
     font-size: var(--h3-font);
     text-align: center;
+    margin: 4rem 0 2rem;
 }
 
 .contact-form{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4.2rem;
 }
 
 .contact-form form{
@@ -514,7 +518,7 @@ section{
 form input,
 form textarea{
     width: 100%;
-    padding: 20px;
+    padding: 18px;
     border: none;
     outline: none;
     box-shadow: 0 0 5px var(--main-color);
@@ -540,7 +544,7 @@ form .send-btn{
     font-size: 15px;
     font-weight: 600;
     transition: all .50s ease;
-    width: 40%;
+    width: 100%;
 }
 
 form .send-btn:hover{
@@ -548,4 +552,17 @@ form .send-btn:hover{
     color: var(--main-color);
     box-shadow: 0 0 20px var(--main-color);
     cursor: pointer;
+}
+
+/* Footer */
+
+.footer{
+    padding: 3rem 0;
+    background-color: var(--second-bg-color);
+    text-align: center;
+}
+
+.footer p{
+    font-size: var(--p-font);
+    color: var(--text-color);
 }
