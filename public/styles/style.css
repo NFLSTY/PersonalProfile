@@ -342,7 +342,7 @@ section{
 }
 
 .about-btn{
-    margin-top: 15px;  /* Adjust hieght from text to button */
+    margin-top: 15px;  /* Adjust height from text to button */
     display: inline-block;
     padding: 11px 26px;
     background: var(--main-color);
@@ -427,7 +427,7 @@ section{
 
 .box i{
     vertical-align: middle;
-    font-size: 23px;
+    font-size: 20px;
     color: var(--main-color);
     margin-left: 5px;
 }
