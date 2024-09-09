@@ -371,14 +371,13 @@ section{
     font-size: var(--h3-font);
     color: var(--text-color);
     text-align: center;
-    margin: 5rem 0;
+    margin: 4rem 0 3rem;
 }
 
 .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     gap: 3rem;
-    margin-top: 4.2rem;;
 }
 
 .box{
@@ -391,8 +390,9 @@ section{
     cursor: pointer;
 }
 
-.box img{
+.box span{
     margin-bottom: 20px;
+    font-size: 35px;
 }
 
 .box:hover{
