@@ -325,6 +325,10 @@ section{
     box-shadow: 0 0 20px var(--main-color);
 }
 
+.about-content{
+    text-align: center;
+}
+
 .about .title{
     font-size: var(--h3-font);
     margin-bottom: 1rem;
