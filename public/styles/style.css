@@ -308,21 +308,21 @@ section{
 
 .about{
     background: var(--second-bg-color);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 1rem; /* Picture to side text */
 }
 
 .about-img img{
+    margin-top: 70px; 
+    margin-right: 110px;
     width: 100%;
-    height: 500px;
-    max-width: 500px;
+    height: 450px;
+    max-width: 450px;
     border-radius: 50%;
     cursor: pointer;
     object-fit: cover;
     border: 7px solid var(--main-color);
     box-shadow: 0 0 20px var(--main-color);
+    float: right;
 }
 
 .about-content{
@@ -330,6 +330,7 @@ section{
 }
 
 .about .title{
+    margin-top: 50px; 
     font-size: var(--h3-font);
     margin-bottom: 1rem;
     font-weight: 700;
